@@ -24,6 +24,7 @@
 		A1A5699222E2CB890045DF86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1A5699522E2CB890045DF86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1A5699722E2CB890045DF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A5699D22E2CBB60045DF86 /* AppleFeedback-CatalystContextMenuViewIssue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AppleFeedback-CatalystContextMenuViewIssue.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		A1A5698822E2CB870045DF86 /* AppleFeedback-CatalystContextMenuViewIssue */ = {
 			isa = PBXGroup;
 			children = (
+				A1A5699D22E2CBB60045DF86 /* AppleFeedback-CatalystContextMenuViewIssue.entitlements */,
 				A1A5698922E2CB870045DF86 /* AppDelegate.swift */,
 				A1A5698B22E2CB870045DF86 /* SceneDelegate.swift */,
 				A1A5698D22E2CB870045DF86 /* ContentView.swift */,
@@ -284,7 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AppleFeedback-CatalystContextMenuViewIssue/AppleFeedback-CatalystContextMenuViewIssue.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "AppleFeedback-CatalystContextMenuViewIssue/Preview\\ Content";
 				DEVELOPMENT_TEAM = 29P3YRFLV5;
 				ENABLE_PREVIEWS = YES;
@@ -295,6 +299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.noahgilmore.AppleFeedback-CatalystContextMenuViewIssue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,7 +309,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AppleFeedback-CatalystContextMenuViewIssue/AppleFeedback-CatalystContextMenuViewIssue.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "AppleFeedback-CatalystContextMenuViewIssue/Preview\\ Content";
 				DEVELOPMENT_TEAM = 29P3YRFLV5;
 				ENABLE_PREVIEWS = YES;
@@ -315,6 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.noahgilmore.AppleFeedback-CatalystContextMenuViewIssue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
